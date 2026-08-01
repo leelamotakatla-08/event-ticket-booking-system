@@ -10,26 +10,62 @@
   <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
+<p align="center">
+  <strong>A modern React-based Event Ticket Booking System with QR Ticket Generation, Venue Map, and Chatbot Support.</strong>
+</p>
+
+---
+
+# 🚀 Live Demo
+
+### 🌐 Website
+
+https://event-ticket-booking-system-topaz.vercel.app
+
+### 📂 GitHub Repository
+
+https://github.com/leelamotakatla-08/event-ticket-booking-system
+
 ---
 
 # 📌 Overview
 
-The **Event Ticket Booking System** is a modern and responsive web application built using **React** and **Vite**. It enables users to browse events, view event details, book tickets, generate QR-based digital tickets, access venue maps, and interact with a chatbot for assistance.
+The **Event Ticket Booking System** is a modern and responsive web application developed using **React** and **Vite**. It allows users to browse events, view detailed event information, book tickets, generate QR-based digital tickets, access venue maps, and interact with a chatbot for assistance.
 
-The project demonstrates modern frontend development practices through reusable React components, responsive UI design, modular architecture, and efficient client-side navigation.
+The application is built using reusable React components, client-side routing with React Router, and a responsive UI to provide a smooth user experience.
+
+This project demonstrates modern frontend development practices and is suitable for showcasing React development skills in software engineering portfolios.
+
+---
+
+# ✨ Features
+
+- 🎉 Browse upcoming events
+- 📄 View complete event information
+- 🎫 Book event tickets
+- ✅ Booking confirmation page
+- 🎟️ QR Code ticket generation
+- 🗺️ Interactive venue map
+- 🤖 Chatbot assistance
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
+- 🧩 Reusable React components
 
 ---
 
 # 🛠️ Tech Stack
 
-### Frontend
+## Frontend
+
 - React.js
 - Vite
+- React Router
 - JavaScript (ES6+)
 - HTML5
 - CSS3
 
-### Tools
+## Tools
+
 - VS Code
 - Git
 - GitHub
@@ -37,48 +73,81 @@ The project demonstrates modern frontend development practices through reusable 
 
 ---
 
-# ✨ Features
+# 📂 Project Structure
 
-- 🎉 Browse upcoming events
-- 📄 View detailed event information
-- 🎫 Book event tickets
-- ✅ Booking confirmation
-- 🎟️ QR code ticket generation
-- 🗺️ Venue map integration
-- 🤖 Interactive chatbot
-- 📱 Fully responsive design
-- ⚡ Fast loading with Vite
-- 🧩 Reusable React components
+```text
+event-ticket-booking-system
+│
+├── images
+│   ├── booking-confirmation.png
+│   ├── chatbot.png
+│   ├── event-map.png
+│   ├── home-page.png
+│   └── login-page.png
+│
+├── public
+│   └── favicon.svg
+│
+├── src
+│   ├── assets
+│   │   └── hero.png
+│   │
+│   ├── components
+│   │   ├── BookingForm.jsx
+│   │   ├── ChatBot.jsx
+│   │   ├── EventDetails.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── TicketQR.jsx
+│   │   └── VenueMap.jsx
+│   │
+│   ├── pages
+│   │   ├── BookingPage.jsx
+│   │   ├── ChatPage.jsx
+│   │   ├── Confirmation.jsx
+│   │   ├── EventPage.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   └── MapPage.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
 ---
 
-# 🚀 Installation
+# ⚙️ Installation
 
-### Clone the Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/event-ticket-booking-system.git
+git clone https://github.com/leelamotakatla-08/event-ticket-booking-system.git
 ```
 
-### Navigate to the Project
+## Navigate to the Project
 
 ```bash
 cd event-ticket-booking-system
 ```
 
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Start the Development Server
+## Run Development Server
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
+## Build for Production
 
 ```bash
 npm run build
@@ -88,35 +157,73 @@ npm run build
 
 # 📸 Project Screenshots
 
-### 🏠 Home Page
+## 🏠 Home Page
 
 <p align="center">
-<img src="./images/home-page.png" alt="Home Page" width="900">
+<img src="./images/home-page.png" width="900">
 </p>
 
-### 🔐 Login Page
+---
+
+## 🔐 Login Page
 
 <p align="center">
-<img src="./images/login-page.png" alt="Login Page" width="900">
+<img src="./images/login-page.png" width="900">
 </p>
 
-### ✅ Booking Confirmation
+---
+
+## ✅ Booking Confirmation
 
 <p align="center">
-<img src="./images/booking-confirmation.png" alt="Booking Confirmation" width="900">
+<img src="./images/booking-confirmation.png" width="900">
 </p>
 
-### 🗺️ Event Venue Map
+---
+
+## 🗺️ Venue Map
 
 <p align="center">
-<img src="./images/event-map.png" alt="Event Map" width="900">
+<img src="./images/event-map.png" width="900">
 </p>
 
-### 🤖 Chat Assistant
+---
+
+## 🤖 Chatbot
 
 <p align="center">
-<img src="./images/chatbot.png" alt="Chatbot" width="900">
+<img src="./images/chatbot.png" width="900">
 </p>
+
+---
+
+# 🔄 Application Workflow
+
+```text
+Login
+   │
+   ▼
+Home Page
+   │
+   ▼
+Browse Events
+   │
+   ▼
+Event Details
+   │
+   ▼
+Book Tickets
+   │
+   ▼
+Booking Confirmation
+   │
+   ▼
+Generate QR Ticket
+   │
+   ├────────► Venue Map
+   │
+   └────────► Chatbot Assistance
+```
 
 ---
 
@@ -124,27 +231,31 @@ npm run build
 
 | Module | Description |
 |---------|-------------|
+| 🔐 Login | User authentication interface |
 | 🏠 Home | Displays featured events and navigation |
 | 🎉 Events | Browse and view event details |
 | 🎫 Booking | Ticket booking and quantity selection |
 | ✅ Confirmation | Displays booking confirmation |
-| 🎟️ QR Ticket | Generates digital QR tickets |
-| 🗺️ Venue & Chat | Venue map and chatbot assistance |
+| 🎟️ QR Ticket | Generates digital QR ticket |
+| 🗺️ Venue Map | Displays event venue location |
+| 🤖 Chatbot | Provides event-related assistance |
 
 ---
 
 # 🔮 Future Enhancements
 
-- Backend integration with Spring Boot
-- User authentication & authorization
-- Payment gateway integration
-- Seat selection system
-- Booking history
-- Admin dashboard
-- Event management panel
-- Email notifications
-- Search and filtering
-- Dark mode support
+- Spring Boot backend integration
+- JWT Authentication
+- Payment Gateway Integration
+- Seat Selection
+- Booking History
+- User Dashboard
+- Admin Dashboard
+- Event Management System
+- Email Notifications
+- Search & Filtering
+- Dark Mode
+- Mobile App Version
 
 ---
 
@@ -154,11 +265,20 @@ npm run build
 
 🎓 B.Tech – Computer Science and Engineering
 
-Apspiring Software Developer
+💻 Aspiring Software Developer
+
+### Connect with me
+
+- GitHub: https://github.com/leelamotakatla-08
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
 ---
 
 # 📄 License
 
 This project is licensed under the **MIT License**.
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
