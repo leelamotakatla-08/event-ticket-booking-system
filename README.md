@@ -15,21 +15,17 @@
 
 ---
 
-# 🚀 Live Demo
+🌐 **Live Demo:** https://event-ticket-booking-system-topaz.vercel.app
 
-🌐 **Website:**  
-https://event-ticket-booking-system-topaz.vercel.app
-
-📂 **GitHub Repository:**  
-https://github.com/leelamotakatla-08/event-ticket-booking-system
+📂 **GitHub Repository:** https://github.com/leelamotakatla-08/event-ticket-booking-system
 
 ---
 
 # 📌 Overview
 
-The **Event Ticket Booking System** is a responsive web application built using **React** and **Vite**. Users can browse events, view event details, book tickets, generate QR tickets, explore venue maps, and interact with a chatbot for assistance.
+The **Event Ticket Booking System** is a responsive web application built with **React**, **Vite**, and **React Router**. It enables users to browse events, view event details, book tickets, generate QR-based tickets, explore venue maps, and interact with an AI chatbot for event assistance.
 
-The project demonstrates reusable React components, client-side routing, and responsive UI development.
+The project showcases reusable React components, client-side routing, responsive UI design, and modern frontend development practices for a seamless user experience across desktop and mobile devices.
 
 ---
 
