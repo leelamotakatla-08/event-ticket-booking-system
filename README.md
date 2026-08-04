@@ -10,19 +10,188 @@
 </p>
 
 <p align="center">
-<strong>A modern Event Ticket Booking System built with React and Vite featuring QR ticket generation, venue maps, and chatbot assistance.</strong>
+  <strong>Modern Event Ticket Booking System built with React and Vite.</strong>
 </p>
 
 ---
 
-🌐 **Live Demo:** https://event-ticket-booking-system-topaz.vercel.app
+## 🌐 Live Demo
+https://event-ticket-booking-system-topaz.vercel.app
 
-📂 **GitHub Repository:** https://github.com/leelamotakatla-08/event-ticket-booking-system
+## 📂 GitHub Repository
+https://github.com/leelamotakatla-08/event-ticket-booking-system
 
 ---
 
 # 📌 Overview
 
-The **Event Ticket Booking System** is a responsive web application built with **React**, **Vite**, and **React Router**. It enables users to browse events, view event details, book tickets, generate QR-based tickets, explore venue maps, and interact with an AI chatbot for event assistance.
+The **Event Ticket Booking System** is a modern and responsive web application built with **React**, **Vite**, and **React Router**. Users can browse events, view event details, book tickets, generate QR-code tickets, explore venue maps, and interact with an AI chatbot. The project demonstrates component-based architecture, client-side routing, reusable UI components, and responsive web design.
 
-The project showcases reusable React components, client-side routing, responsive UI design, and modern frontend development practices for a seamless user experience across desktop and mobile devices. IS BOTH OVERVIEW AND PARA NEEDED
+---
+
+# ✨ Features
+
+- 🎉 Browse events
+- 📄 View detailed event information
+- 🎫 Book event tickets
+- ✅ Booking confirmation
+- 🎟️ QR ticket generation
+- 🗺️ Interactive venue map
+- 🤖 AI chatbot assistance
+- 📱 Responsive design
+- ⚡ Fast performance with Vite
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React.js, Vite, React Router |
+| Languages | JavaScript (ES6+), HTML5, CSS3 |
+| Tools | VS Code, Git, GitHub, npm |
+
+---
+
+# 📂 Project Structure
+
+```text
+event-ticket-booking-system
+│
+├── images
+├── public
+├── src
+│   ├── components
+│   ├── pages
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/leelamotakatla-08/event-ticket-booking-system.git
+```
+
+### Navigate to Project
+
+```bash
+cd event-ticket-booking-system
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home](images/home.png)
+
+## 🔐 Login Page
+
+![Login](images/login.png)
+
+## ✅ Booking Confirmation
+
+![Confirmation](images/confirmation.png)
+
+## 🗺️ Venue Map
+
+![Venue Map](images/venue-map.png)
+
+## 🤖 Chatbot
+
+![Chatbot](images/chatbot.png)
+
+---
+
+# 🔄 Application Workflow
+
+```text
+Login
+   │
+   ▼
+Home
+   │
+   ▼
+Browse Events
+   │
+   ▼
+Event Details
+   │
+   ▼
+Book Tickets
+   │
+   ▼
+Confirmation
+   ├──► QR Ticket
+   ├──► Venue Map
+   └──► Chatbot
+```
+
+---
+
+# 🔮 Future Enhancements
+
+- Spring Boot Backend
+- JWT Authentication
+- Payment Gateway Integration
+- Seat Selection
+- Booking History
+- User Dashboard
+- Admin Dashboard
+- Event Management
+- Email Notifications
+- Search & Filtering
+- Dark Mode
+- Mobile Application
+
+---
+
+# 👩‍💻 Author
+
+**Motakatla Leela Vardhini**
+
+🎓 B.Tech – Computer Science and Engineering
+
+💻 Aspiring Software Developer
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
