@@ -9,10 +9,6 @@
   <img src="https://img.shields.io/badge/Responsive-Yes-success">
 </p>
 
-<p align="center">
-<strong>A modern Event Ticket Booking System built with React and Vite featuring QR ticket generation, venue maps, and chatbot assistance.</strong>
-</p>
-
 ---
 
 🌐 **Live Demo:** https://event-ticket-booking-system-topaz.vercel.app
@@ -220,9 +216,6 @@ Confirmation
 🎓 B.Tech – Computer Science and Engineering
 
 💻 Aspiring Software Developer
-
-**GitHub:**  
-https://github.com/leelamotakatla-08
 
 ---
 
